@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUIPropertyWrapperTalkApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PostsView()
+                .environment(\.urlSession, URLSession.shared)
         }
     }
 }

@@ -7,15 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PostsView: View {
+    @RemoteData(endpoint: .feed) var feed: [Post]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        List(feed) { post in
+            Text(post.title)
+        }
     }
 }

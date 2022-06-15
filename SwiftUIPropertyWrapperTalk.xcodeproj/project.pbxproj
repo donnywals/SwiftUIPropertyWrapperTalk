@@ -11,7 +11,21 @@
 		979F2B402858FD3C000963F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F2B3F2858FD3C000963F8 /* ContentView.swift */; };
 		979F2B422858FD3D000963F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979F2B412858FD3D000963F8 /* Assets.xcassets */; };
 		979F2B452858FD3D000963F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979F2B442858FD3D000963F8 /* Preview Assets.xcassets */; };
+		979F2B4C285903CA000963F8 /* StringSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F2B4B285903CA000963F8 /* StringSample.swift */; };
+		979F2B4E2859066E000963F8 /* RemoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F2B4D2859066E000963F8 /* RemoteData.swift */; };
+		979F2B5028590A53000963F8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F2B4F28590A53000963F8 /* Post.swift */; };
+		979F2B58285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F2B57285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979F2B59285A16A3000963F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979F2B322858FD3C000963F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979F2B392858FD3C000963F8;
+			remoteInfo = SwiftUIPropertyWrapperTalk;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		979F2B3A2858FD3C000963F8 /* SwiftUIPropertyWrapperTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPropertyWrapperTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +33,22 @@
 		979F2B3F2858FD3C000963F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		979F2B412858FD3D000963F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		979F2B442858FD3D000963F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		979F2B4B285903CA000963F8 /* StringSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringSample.swift; sourceTree = "<group>"; };
+		979F2B4D2859066E000963F8 /* RemoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteData.swift; sourceTree = "<group>"; };
+		979F2B4F28590A53000963F8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		979F2B55285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPropertyWrapperTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979F2B57285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPropertyWrapperTalkTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		979F2B372858FD3C000963F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979F2B52285A16A3000963F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				979F2B3C2858FD3C000963F8 /* SwiftUIPropertyWrapperTalk */,
+				979F2B56285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests */,
 				979F2B3B2858FD3C000963F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				979F2B3A2858FD3C000963F8 /* SwiftUIPropertyWrapperTalk.app */,
+				979F2B55285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,9 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				979F2B3D2858FD3C000963F8 /* SwiftUIPropertyWrapperTalkApp.swift */,
+				979F2B4D2859066E000963F8 /* RemoteData.swift */,
 				979F2B3F2858FD3C000963F8 /* ContentView.swift */,
 				979F2B412858FD3D000963F8 /* Assets.xcassets */,
 				979F2B432858FD3D000963F8 /* Preview Content */,
+				979F2B4B285903CA000963F8 /* StringSample.swift */,
+				979F2B4F28590A53000963F8 /* Post.swift */,
 			);
 			path = SwiftUIPropertyWrapperTalk;
 			sourceTree = "<group>";
@@ -65,6 +96,14 @@
 				979F2B442858FD3D000963F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		979F2B56285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				979F2B57285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests.swift */,
+			);
+			path = SwiftUIPropertyWrapperTalkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +126,24 @@
 			productReference = 979F2B3A2858FD3C000963F8 /* SwiftUIPropertyWrapperTalk.app */;
 			productType = "com.apple.product-type.application";
 		};
+		979F2B54285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979F2B5B285A16A3000963F8 /* Build configuration list for PBXNativeTarget "SwiftUIPropertyWrapperTalkTests" */;
+			buildPhases = (
+				979F2B51285A16A3000963F8 /* Sources */,
+				979F2B52285A16A3000963F8 /* Frameworks */,
+				979F2B53285A16A3000963F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979F2B5A285A16A3000963F8 /* PBXTargetDependency */,
+			);
+			name = SwiftUIPropertyWrapperTalkTests;
+			productName = SwiftUIPropertyWrapperTalkTests;
+			productReference = 979F2B55285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +156,10 @@
 				TargetAttributes = {
 					979F2B392858FD3C000963F8 = {
 						CreatedOnToolsVersion = 13.4;
+					};
+					979F2B54285A16A3000963F8 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 979F2B392858FD3C000963F8;
 					};
 				};
 			};
@@ -116,6 +177,7 @@
 			projectRoot = "";
 			targets = (
 				979F2B392858FD3C000963F8 /* SwiftUIPropertyWrapperTalk */,
+				979F2B54285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +192,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		979F2B53285A16A3000963F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +207,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				979F2B402858FD3C000963F8 /* ContentView.swift in Sources */,
+				979F2B4E2859066E000963F8 /* RemoteData.swift in Sources */,
+				979F2B4C285903CA000963F8 /* StringSample.swift in Sources */,
 				979F2B3E2858FD3C000963F8 /* SwiftUIPropertyWrapperTalkApp.swift in Sources */,
+				979F2B5028590A53000963F8 /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979F2B51285A16A3000963F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979F2B58285A16A3000963F8 /* SwiftUIPropertyWrapperTalkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979F2B5A285A16A3000963F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979F2B392858FD3C000963F8 /* SwiftUIPropertyWrapperTalk */;
+			targetProxy = 979F2B59285A16A3000963F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		979F2B462858FD3D000963F8 /* Debug */ = {
@@ -317,6 +405,42 @@
 			};
 			name = Release;
 		};
+		979F2B5C285A16A3000963F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4JMM8JMG3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donnywals.SwiftUIPropertyWrapperTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIPropertyWrapperTalk.app/SwiftUIPropertyWrapperTalk";
+			};
+			name = Debug;
+		};
+		979F2B5D285A16A3000963F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4JMM8JMG3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donnywals.SwiftUIPropertyWrapperTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIPropertyWrapperTalk.app/SwiftUIPropertyWrapperTalk";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +458,15 @@
 			buildConfigurations = (
 				979F2B492858FD3D000963F8 /* Debug */,
 				979F2B4A2858FD3D000963F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979F2B5B285A16A3000963F8 /* Build configuration list for PBXNativeTarget "SwiftUIPropertyWrapperTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979F2B5C285A16A3000963F8 /* Debug */,
+				979F2B5D285A16A3000963F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
